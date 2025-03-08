@@ -1,5 +1,7 @@
 # 🚀 Customer Churn Prediction Web Application 
 
+**Live Demo:** [Streamlit App](https://ann-classification-churn-5whqod6ajbd3cquu6ofrba.streamlit.app/)
+
 A Streamlit-based web application for predicting customer churn probability using a pre-trained TensorFlow neural network model.
 
 ## 🌟 Features
@@ -19,7 +21,8 @@ A Streamlit-based web application for predicting customer churn probability usin
 ## 🛠️ Installation
 1. Clone the repository
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/yourusername/ANN-Classification-Churn.git
+   cd ANN-Classification-Churn
    ```
 2. Install requirements
 ``` bash
@@ -63,6 +66,7 @@ The application automatically handles feature engineering:
 ⚖️ StandardScaler applied to all features
 
 ## 📂 Project Structure
+``` bash
 .
 ├── app.py               # Main application code
 ├── model.h5             # 🧠 Trained neural network model
@@ -71,3 +75,4 @@ The application automatically handles feature engineering:
 ├── scaler.pkl
 ├── README.md
 └── requirements.txt
+```
